@@ -1,0 +1,16 @@
+{
+  "base_model": "fire-smoke-pretrained-base",
+  "dataset_path": "datasets/fire_smoke/processed",
+  "epochs": 5,
+  "image_size": 320,
+  "imgsz": null,
+  "batch_size": 4,
+  "device": "cpu",
+  "output_directory": "training_runs",
+  "project_name": "fire-smoke-workshop",
+  "learning_rate": 0.01,
+  "optimizer": "auto",
+  "workers": 0,
+  "patience": 10,
+  "seed": 42
+}

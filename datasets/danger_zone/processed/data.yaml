@@ -1,0 +1,10 @@
+path: C:/Users/Manikandan/.gemini/antigravity/scratch/ai-safety-model-lab/datasets/danger_zone/processed
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+  0: person
+  1: machinery
+  2: vehicle
+  3: safety_cone

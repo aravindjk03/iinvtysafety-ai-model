@@ -1,0 +1,44 @@
+{
+  "run_id": "run-20261008-001556-fall-v2",
+  "base_model_id": "fall-pretrained-base",
+  "base_model_version": "1.0.0",
+  "dataset_path": "datasets/fall_detection/processed",
+  "dataset_summary": {
+    "total_images": 35,
+    "train_images": 25,
+    "validation_images": 10,
+    "total_annotations": 119,
+    "annotations_per_class": {
+      "person": 119
+    },
+    "class_names": {
+      "0": "person"
+    },
+    "missing_labels_count": 0,
+    "invalid_labels_count": 0,
+    "image_formats": {
+      ".jpg": 35
+    },
+    "warnings": [
+      "Dataset has an extremely small class count (1 class)."
+    ]
+  },
+  "training_configuration": {
+    "architecture": "yolo11n-pose",
+    "task_type": "pose_estimation",
+    "input_size": [
+      640,
+      640
+    ],
+    "keypoints": 17,
+    "device": "cpu",
+    "eval_images": 10
+  },
+  "device": "cpu",
+  "framework": "ultralytics_yolo",
+  "framework_version": null,
+  "python_version": "3.13.7 (Windows)",
+  "timestamp": "2026-10-08T00:15:56.520307+00:00",
+  "output_model_id": "fall-detection-v2",
+  "status": "ready"
+}

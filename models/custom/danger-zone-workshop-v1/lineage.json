@@ -1,0 +1,56 @@
+{
+  "run_id": "run-20261007-234243-be7b",
+  "base_model_id": "danger-zone-pretrained-base",
+  "base_model_version": "1.0.0",
+  "dataset_path": "datasets/danger_zone/processed",
+  "dataset_summary": {
+    "total_images": 25,
+    "train_images": 20,
+    "validation_images": 5,
+    "total_annotations": 182,
+    "annotations_per_class": {
+      "person": 132,
+      "machinery": 42,
+      "vehicle": 7,
+      "safety_cone": 1
+    },
+    "class_names": {
+      "0": "person",
+      "1": "machinery",
+      "2": "vehicle",
+      "3": "safety_cone"
+    },
+    "missing_labels_count": 0,
+    "invalid_labels_count": 0,
+    "image_formats": {
+      ".jpg": 25
+    },
+    "warnings": [
+      "Highly imbalanced class distribution detected (ratio 132:1 >= 10:1)."
+    ]
+  },
+  "training_configuration": {
+    "base_model": "danger-zone-pretrained-base",
+    "dataset_path": "datasets/danger_zone/processed",
+    "epochs": 15,
+    "image_size": 320,
+    "imgsz": null,
+    "batch_size": 4,
+    "device": "cpu",
+    "output_directory": "training_runs",
+    "project_name": "danger-zone-workshop",
+    "task_type": "object_detection",
+    "learning_rate": 0.01,
+    "optimizer": "auto",
+    "workers": 0,
+    "patience": 10,
+    "seed": 42
+  },
+  "device": "cpu",
+  "framework": "ultralytics_yolo",
+  "framework_version": "8.4.174",
+  "python_version": "3.13.7 (Windows)",
+  "timestamp": "2026-10-07T23:42:43.369458+00:00",
+  "output_model_id": null,
+  "status": "evaluated"
+}

@@ -1,0 +1,9 @@
+path: C:/Users/Manikandan/.gemini/antigravity/scratch/ai-safety-model-lab/datasets/ppe/processed
+train: images/train
+val: images/val
+test: images/test
+nc: 3
+names:
+  0: person
+  1: helmet
+  2: vest

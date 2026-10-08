@@ -1,0 +1,53 @@
+{
+  "run_id": "run-20261007-231647-c173",
+  "base_model_id": "ppe-pretrained-base",
+  "base_model_version": "1.0.0",
+  "dataset_path": "datasets/ppe/processed",
+  "dataset_summary": {
+    "total_images": 25,
+    "train_images": 20,
+    "validation_images": 5,
+    "total_annotations": 193,
+    "annotations_per_class": {
+      "person": 132,
+      "helmet": 48,
+      "vest": 13
+    },
+    "class_names": {
+      "0": "person",
+      "1": "helmet",
+      "2": "vest"
+    },
+    "missing_labels_count": 0,
+    "invalid_labels_count": 0,
+    "image_formats": {
+      ".jpg": 25
+    },
+    "warnings": [
+      "Highly imbalanced class distribution detected (ratio 132:13 >= 10:1)."
+    ]
+  },
+  "training_configuration": {
+    "base_model": "ppe-pretrained-base",
+    "dataset_path": "datasets/ppe/processed",
+    "epochs": 5,
+    "image_size": 320,
+    "imgsz": null,
+    "batch_size": 4,
+    "device": "cpu",
+    "output_directory": "training_runs",
+    "project_name": "ppe-workshop",
+    "learning_rate": 0.01,
+    "optimizer": "auto",
+    "workers": 0,
+    "patience": 10,
+    "seed": 42
+  },
+  "device": "cpu",
+  "framework": "ultralytics_yolo",
+  "framework_version": "8.4.174",
+  "python_version": "3.13.7 (Windows)",
+  "timestamp": "2026-10-07T23:16:47.891239+00:00",
+  "output_model_id": null,
+  "status": "evaluated"
+}

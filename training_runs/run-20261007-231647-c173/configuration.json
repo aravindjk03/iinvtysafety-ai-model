@@ -1,0 +1,16 @@
+{
+  "base_model": "ppe-pretrained-base",
+  "dataset_path": "datasets/ppe/processed",
+  "epochs": 5,
+  "image_size": 320,
+  "imgsz": null,
+  "batch_size": 4,
+  "device": "cpu",
+  "output_directory": "training_runs",
+  "project_name": "ppe-workshop",
+  "learning_rate": 0.01,
+  "optimizer": "auto",
+  "workers": 0,
+  "patience": 10,
+  "seed": 42
+}

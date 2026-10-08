@@ -1,0 +1,26 @@
+{
+  "total_images": 75,
+  "train_images": 60,
+  "validation_images": 15,
+  "total_annotations": 516,
+  "annotations_per_class": {
+    "person": 353,
+    "machinery": 104,
+    "vehicle": 16,
+    "safety_cone": 43
+  },
+  "class_names": {
+    "0": "person",
+    "1": "machinery",
+    "2": "vehicle",
+    "3": "safety_cone"
+  },
+  "missing_labels_count": 0,
+  "invalid_labels_count": 0,
+  "image_formats": {
+    ".jpg": 75
+  },
+  "warnings": [
+    "Highly imbalanced class distribution detected (ratio 353:16 >= 10:1)."
+  ]
+}

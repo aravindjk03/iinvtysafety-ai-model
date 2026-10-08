@@ -1,0 +1,26 @@
+{
+  "model_id": "fall-detection-workshop-v1",
+  "name": "fall-detection-workshop",
+  "version": "1.0.0",
+  "task_type": "pose_estimation",
+  "framework": "ultralytics_yolo",
+  "architecture": "yolo11n-pose",
+  "model_path": "models/custom/fall-detection-workshop-v1/model.pt",
+  "classes": [
+    "person"
+  ],
+  "input_size": [
+    640,
+    640
+  ],
+  "confidence_threshold": 0.25,
+  "origin": "custom",
+  "base_model": "fall-pretrained-base",
+  "training_run_id": "run-20261007-235023-fall",
+  "status": "ready",
+  "training_supported": true,
+  "description": "Worker pose estimation model with 17 skeletal keypoints for fall and posture safety detection.",
+  "created_at": "2026-10-07T23:50:23.374890+00:00",
+  "updated_at": null,
+  "framework_version": null
+}

@@ -1,0 +1,6 @@
+description: TEST FIXTURE ONLY - SYNTHETIC DATASET FOR UNIT TESTING
+names:
+  0: synthetic_shape_a
+  1: synthetic_shape_b
+train: images/train
+val: images/val

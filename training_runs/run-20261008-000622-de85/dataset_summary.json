@@ -1,0 +1,22 @@
+{
+  "total_images": 75,
+  "train_images": 60,
+  "validation_images": 15,
+  "total_annotations": 592,
+  "annotations_per_class": {
+    "person": 354,
+    "helmet": 164,
+    "vest": 74
+  },
+  "class_names": {
+    "0": "person",
+    "1": "helmet",
+    "2": "vest"
+  },
+  "missing_labels_count": 0,
+  "invalid_labels_count": 0,
+  "image_formats": {
+    ".jpg": 75
+  },
+  "warnings": []
+}

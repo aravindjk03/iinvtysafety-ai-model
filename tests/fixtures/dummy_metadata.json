@@ -1,0 +1,18 @@
+{
+  "model_id": "test-dummy-yolo-v1",
+  "name": "TEST ONLY Dummy YOLO Model",
+  "version": "0.0.1",
+  "task_type": "object_detection",
+  "framework": "ultralytics_yolo",
+  "architecture": "yolo11n",
+  "model_path": "tests/fixtures/dummy_model.pt",
+  "classes": ["test_object"],
+  "input_size": [640, 640],
+  "confidence_threshold": 0.25,
+  "origin": "custom",
+  "base_model": null,
+  "training_run_id": null,
+  "status": "registered",
+  "training_supported": true,
+  "description": "TEST ONLY - Architecture testing mock model fixture"
+}

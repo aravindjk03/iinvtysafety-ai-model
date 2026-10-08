@@ -1,0 +1,10 @@
+path: C:/Users/Manikandan/.gemini/antigravity/scratch/ai-safety-model-lab/datasets/fall_detection/processed
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: person
+kpt_shape:
+- 17
+- 3

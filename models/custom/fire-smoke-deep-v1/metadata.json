@@ -1,0 +1,27 @@
+{
+  "model_id": "fire-smoke-deep-v1",
+  "name": "fire-smoke-deep",
+  "version": "1.0.0",
+  "task_type": "object_detection",
+  "framework": "ultralytics_yolo",
+  "architecture": "fire-smoke-pretrained-base",
+  "model_path": "models/custom/fire-smoke-deep-v1/model.pt",
+  "classes": [
+    "fire",
+    "smoke"
+  ],
+  "input_size": [
+    320,
+    320
+  ],
+  "confidence_threshold": 0.25,
+  "origin": "custom",
+  "base_model": "fire-smoke-pretrained-base",
+  "training_run_id": "run-20261007-234112-19c2",
+  "status": "ready",
+  "training_supported": true,
+  "description": "Participant model fine-tuned from fire-smoke-pretrained-base",
+  "created_at": "2026-10-07T23:42:43.303795+00:00",
+  "updated_at": null,
+  "framework_version": null
+}

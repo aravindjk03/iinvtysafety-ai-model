@@ -1,0 +1,361 @@
+{
+  "models": [
+    {
+      "architecture": "yolo11n",
+      "base_model": null,
+      "classes": [
+        "person",
+        "helmet",
+        "vest"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:16:47.842502+00:00",
+      "description": "Ultralytics YOLO11n pretrained base weights for PPE detection fine-tuning.",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "ppe-pretrained-base",
+      "model_path": "models/pretrained/ppe/model.pt",
+      "name": "YOLO11n PPE Base Pretrained",
+      "origin": "pretrained",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": null,
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "yolo11n",
+      "base_model": null,
+      "classes": [
+        "fire",
+        "smoke"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:16:47.857186+00:00",
+      "description": "Ultralytics YOLO11n pretrained base weights for Fire & Smoke fine-tuning.",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "fire-smoke-pretrained-base",
+      "model_path": "models/pretrained/fire_smoke/model.pt",
+      "name": "YOLO11n Fire Smoke Base Pretrained",
+      "origin": "pretrained",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": null,
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "ppe-pretrained-base",
+      "base_model": "ppe-pretrained-base",
+      "classes": [
+        "person",
+        "helmet",
+        "vest"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:17:19.780830+00:00",
+      "description": "Participant model fine-tuned from ppe-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "ppe-workshop-v1",
+      "model_path": "models/custom/ppe-workshop-v1/model.pt",
+      "name": "ppe-workshop",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261007-231647-c173",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "fire-smoke-pretrained-base",
+      "base_model": "fire-smoke-pretrained-base",
+      "classes": [
+        "fire",
+        "smoke"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:17:48.681510+00:00",
+      "description": "Participant model fine-tuned from fire-smoke-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "fire-smoke-workshop-v1",
+      "model_path": "models/custom/fire-smoke-workshop-v1/model.pt",
+      "name": "fire-smoke-workshop",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261007-231719-8fad",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "yolo11n",
+      "base_model": null,
+      "classes": [
+        "person",
+        "machinery",
+        "vehicle",
+        "safety_cone"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:41:12.254430+00:00",
+      "description": "Ultralytics YOLO11n pretrained base weights for Danger Zone machinery & personnel detection.",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "danger-zone-pretrained-base",
+      "model_path": "models/pretrained/danger_zone/model.pt",
+      "name": "YOLO11n Danger Zone Base Pretrained",
+      "origin": "pretrained",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": null,
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "yolo11n-pose",
+      "base_model": null,
+      "classes": [
+        "person"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:41:12.267419+00:00",
+      "description": "Ultralytics YOLO11n-Pose pretrained weights for worker pose estimation and fall detection.",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        640,
+        640
+      ],
+      "model_id": "fall-pretrained-base",
+      "model_path": "models/pretrained/fall/model.pt",
+      "name": "YOLO11n Pose Fall Detection Base Pretrained",
+      "origin": "pretrained",
+      "status": "ready",
+      "task_type": "pose_estimation",
+      "training_run_id": null,
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "fire-smoke-pretrained-base",
+      "base_model": "fire-smoke-pretrained-base",
+      "classes": [
+        "fire",
+        "smoke"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:42:43.303795+00:00",
+      "description": "Participant model fine-tuned from fire-smoke-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "fire-smoke-deep-v1",
+      "model_path": "models/custom/fire-smoke-deep-v1/model.pt",
+      "name": "fire-smoke-deep",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261007-234112-19c2",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "danger-zone-pretrained-base",
+      "base_model": "danger-zone-pretrained-base",
+      "classes": [
+        "person",
+        "machinery",
+        "vehicle",
+        "safety_cone"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:43:51.195352+00:00",
+      "description": "Participant model fine-tuned from danger-zone-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "danger-zone-workshop-v1",
+      "model_path": "models/custom/danger-zone-workshop-v1/model.pt",
+      "name": "danger-zone-workshop",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261007-234243-be7b",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "yolo11n-pose",
+      "base_model": "fall-pretrained-base",
+      "classes": [
+        "person"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-07T23:50:23.374890+00:00",
+      "description": "Worker pose estimation model with 17 skeletal keypoints for fall and posture safety detection.",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        640,
+        640
+      ],
+      "model_id": "fall-detection-workshop-v1",
+      "model_path": "models/custom/fall-detection-workshop-v1/model.pt",
+      "name": "fall-detection-workshop",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "pose_estimation",
+      "training_run_id": "run-20261007-235023-fall",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "1.0.0"
+    },
+    {
+      "architecture": "ppe-pretrained-base",
+      "base_model": "ppe-pretrained-base",
+      "classes": [
+        "person",
+        "helmet",
+        "vest"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-08T00:10:04.742770+00:00",
+      "description": "Participant model fine-tuned from ppe-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "ppe-workshop-v2",
+      "model_path": "models/custom/ppe-workshop-v2/model.pt",
+      "name": "ppe-workshop-v2",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261008-000622-de85",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "2.0.0"
+    },
+    {
+      "architecture": "fire-smoke-pretrained-base",
+      "base_model": "fire-smoke-pretrained-base",
+      "classes": [
+        "fire",
+        "smoke"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-08T00:13:25.969552+00:00",
+      "description": "Participant model fine-tuned from fire-smoke-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "fire-smoke-v2",
+      "model_path": "models/custom/fire-smoke-v2/model.pt",
+      "name": "fire-smoke-v2",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261008-001004-ae86",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "2.0.0"
+    },
+    {
+      "architecture": "danger-zone-pretrained-base",
+      "base_model": "danger-zone-pretrained-base",
+      "classes": [
+        "person",
+        "machinery",
+        "vehicle",
+        "safety_cone"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-08T00:15:54.158282+00:00",
+      "description": "Participant model fine-tuned from danger-zone-pretrained-base",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        320,
+        320
+      ],
+      "model_id": "danger-zone-v2",
+      "model_path": "models/custom/danger-zone-v2/model.pt",
+      "name": "danger-zone-v2",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "object_detection",
+      "training_run_id": "run-20261008-001326-3cfb",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "2.0.0"
+    },
+    {
+      "architecture": "yolo11n-pose",
+      "base_model": "fall-pretrained-base",
+      "classes": [
+        "person"
+      ],
+      "confidence_threshold": 0.25,
+      "created_at": "2026-10-08T00:15:56.520538+00:00",
+      "description": "Worker pose estimation model v2 with 17 skeletal keypoints evaluated on scaled fall detection dataset.",
+      "framework": "ultralytics_yolo",
+      "framework_version": null,
+      "input_size": [
+        640,
+        640
+      ],
+      "model_id": "fall-detection-v2",
+      "model_path": "models/custom/fall-detection-v2/model.pt",
+      "name": "fall-detection-v2",
+      "origin": "custom",
+      "status": "ready",
+      "task_type": "pose_estimation",
+      "training_run_id": "run-20261008-001556-fall-v2",
+      "training_supported": true,
+      "updated_at": null,
+      "version": "2.0.0"
+    }
+  ]
+}

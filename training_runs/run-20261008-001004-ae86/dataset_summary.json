@@ -1,0 +1,20 @@
+{
+  "total_images": 75,
+  "train_images": 60,
+  "validation_images": 15,
+  "total_annotations": 78,
+  "annotations_per_class": {
+    "fire": 37,
+    "smoke": 41
+  },
+  "class_names": {
+    "0": "fire",
+    "1": "smoke"
+  },
+  "missing_labels_count": 0,
+  "invalid_labels_count": 0,
+  "image_formats": {
+    ".jpg": 75
+  },
+  "warnings": []
+}

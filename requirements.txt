@@ -1,0 +1,12 @@
+# Core schema and configuration validation
+pydantic>=2.0.0
+pyyaml>=6.0.0
+
+# Deep learning and vision runtime
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.0.0
+
+# Testing framework
+pytest>=7.0.0

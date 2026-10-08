@@ -1,0 +1,24 @@
+{
+  "total_images": 25,
+  "train_images": 20,
+  "validation_images": 5,
+  "total_annotations": 193,
+  "annotations_per_class": {
+    "person": 132,
+    "helmet": 48,
+    "vest": 13
+  },
+  "class_names": {
+    "0": "person",
+    "1": "helmet",
+    "2": "vest"
+  },
+  "missing_labels_count": 0,
+  "invalid_labels_count": 0,
+  "image_formats": {
+    ".jpg": 25
+  },
+  "warnings": [
+    "Highly imbalanced class distribution detected (ratio 132:13 >= 10:1)."
+  ]
+}

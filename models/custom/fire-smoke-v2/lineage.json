@@ -1,0 +1,50 @@
+{
+  "run_id": "run-20261008-001004-ae86",
+  "base_model_id": "fire-smoke-pretrained-base",
+  "base_model_version": "1.0.0",
+  "dataset_path": "datasets/fire_smoke/processed",
+  "dataset_summary": {
+    "total_images": 75,
+    "train_images": 60,
+    "validation_images": 15,
+    "total_annotations": 78,
+    "annotations_per_class": {
+      "fire": 37,
+      "smoke": 41
+    },
+    "class_names": {
+      "0": "fire",
+      "1": "smoke"
+    },
+    "missing_labels_count": 0,
+    "invalid_labels_count": 0,
+    "image_formats": {
+      ".jpg": 75
+    },
+    "warnings": []
+  },
+  "training_configuration": {
+    "base_model": "fire-smoke-pretrained-base",
+    "dataset_path": "datasets/fire_smoke/processed",
+    "epochs": 15,
+    "image_size": 320,
+    "imgsz": null,
+    "batch_size": 4,
+    "device": "cpu",
+    "output_directory": "training_runs",
+    "project_name": "fire-smoke-v2",
+    "task_type": "object_detection",
+    "learning_rate": 0.01,
+    "optimizer": "auto",
+    "workers": 0,
+    "patience": 10,
+    "seed": 42
+  },
+  "device": "cpu",
+  "framework": "ultralytics_yolo",
+  "framework_version": "8.4.174",
+  "python_version": "3.13.7 (Windows)",
+  "timestamp": "2026-10-08T00:10:04.860134+00:00",
+  "output_model_id": null,
+  "status": "evaluated"
+}

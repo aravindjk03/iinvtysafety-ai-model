@@ -1,0 +1,21 @@
+system:
+  # Execution device: 'cpu' (default) or 'cuda'. Phase 1 runs CPU-first.
+  device: "cpu"
+  allowed_devices:
+    - "cpu"
+    - "cuda"
+
+paths:
+  registry_file: "models/registry.json"
+  models_dir: "models"
+  pretrained_dir: "models/pretrained"
+  custom_dir: "models/custom"
+  configs_dir: "configs"
+
+inference:
+  default_confidence_threshold: 0.25
+  default_input_size: [640, 640]
+
+security:
+  enforce_relative_paths: true
+  allow_arbitrary_code: false

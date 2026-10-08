@@ -1,0 +1,8 @@
+path: C:/Users/Manikandan/.gemini/antigravity/scratch/ai-safety-model-lab/datasets/fire_smoke/processed
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names:
+  0: fire
+  1: smoke
